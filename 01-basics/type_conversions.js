@@ -1,5 +1,5 @@
-let score = "22abc";
-let cov_Number = Number(score);
+let score = undefined;
+let conv_score = Number(score);
 
-console.log(typeof con_Number);
-console.log(cov_Number);
+console.log(typeof score);
+console.log(typeof conv_score);
